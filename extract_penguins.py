@@ -31,5 +31,6 @@ def main():
 
     gentoo.dropna().to_csv('gentoo.csv', index=False)
 
+
 if __name__ == '__main__':
     main()
